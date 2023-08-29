@@ -11,6 +11,7 @@ const Navbar = () => {
   const [isSignInModalOpen, setIsSignInModalOpen] = useState(false)
 
   const handleClick = () => setNav(!nav);
+
   const closeSignUpModal = () => setIsSignUpModalOpen(false);
   const handleSignInClick = () => setIsSignInModalOpen(true);
   const handleSignUpClick = () => setIsSignUpModalOpen(true)
@@ -55,6 +56,7 @@ const Navbar = () => {
         </div>
       </div>}
       {isSignUpModalOpen && <SignUpModal setIsSignUpModalOpen={setIsSignUpModalOpen} />}
+      {isSignInModalOpen && <SignInModal setIsSignInModalOpen={setIsSignInModalOpen} />}
     </div>
   );
 }

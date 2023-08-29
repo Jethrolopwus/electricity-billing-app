@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import Landing from "./App/Landing";
 import SignUpModal from "./Components/SignupModal/SignupModal";
 import SigninModal from "./Components/SigninModal"
+import Dashboard from "./Dashboard/Dashboard";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
     <Route path="/" element={<Landing />} />
     <Route path="/signup" element={<SignUpModal />} />
     <Route path="/signin" element={<SigninModal />} />
+    <Route path="/Dashboard" element={<Dashboard />} />
+
 
   </Routes>
   

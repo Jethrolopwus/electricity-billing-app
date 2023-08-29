@@ -26,7 +26,7 @@ const SignUpModal = ({setIsSignUpModalOpen}) => {
             background: '#000',  
             borderColor: '#1890ff',  
             color: '#fff', 
-            fontSize: '12px'          
+            fontSize: '18px'          
           },
         }}
         cancelButtonProps={{
@@ -38,15 +38,15 @@ const SignUpModal = ({setIsSignUpModalOpen}) => {
         <form>
         <div>
           <label className='text-lg font-bold'>USERNAME</label> <br />
-          <input className='w-[80px] text-xl' type='text' placeholder='Enter Your Name' />
+          <input className='w-[100px] text-xl' type='text' placeholder='Enter Your Name' />
         </div>
         <div>
           <label className='text-lg font-bold'>EMAIL</label> <br />
-          <input className='w-[80px] text-xl'  type='email' placeholder='Enter Your Email' />
+          <input className='w-[100px] text-xl'  type='email' placeholder='Enter Your Email' />
         </div>
         <div>
           <label className='text-lg font-bold'>PASSWORD</label> <br />
-          <input className='w-[80px] text-xl' type='password' placeholder='Enter Your Password' />
+          <input className='w-[100px] text-xl' type='password' placeholder='Enter Your Password' />
         </div>
         </form>
       </Modal>
